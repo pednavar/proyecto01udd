@@ -29,7 +29,8 @@
 
 @media screen and (min-width: 764px) {
     .menuhamburguesa {
-        display: none;}
+        display: none;
+    }
 
 }
 
@@ -91,8 +92,10 @@
 
 .division22 {
     width: 50%;
-    background-color: rgb(240, 12, 122);
+    background-color: rgba(17, 24, 39);
     float: right;
+    display: flex;
+    object-fit: scale-down;
 }
 
 .botondescuento {
@@ -105,21 +108,24 @@
     cursor: pointer;
 }
 
-.botonenviar{    
+.botonenviar {
     text-decoration: none;
-    background-color: #369ba8 ;
+    background-color: #369ba8;
     color: white;
     border-radius: 8px;
     border-style: none;
     padding: 15px;
     margin-left: 10px;
     max-width: 310px;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
-.botonconoce {    background-color: transparent;
+.botonconoce {
+    background-color: transparent;
     color: white;
     border-style: none;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 .textocomunica {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -144,16 +150,167 @@
     line-height: 1.25rem;
 }
 
-.ingresacorreo{   
+.ingresacorreo {
     padding: 0.75rem;
     border: 0;
     border-radius: 7px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(17, 24, 39);
 }
 
-.imagencaja{ 
-    width: 384px; height: 192px;
-object-fit:cover;
+.imagencaja {
+    width: 100%;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 15px;
+}
 
+.linknueva {
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.linkprs {
+    text-decoration: none;
+    padding: 1rem;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.linkguitarra {
+    text-decoration: none;
+    padding: 1rem;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(107, 114, 128);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+.linkroel {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.parrafofecha {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(107, 114, 128);
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.imagenroel {
+    margin: 2px;
+    border-radius: 9999px;
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+}
+
+.subcaja01 {
+    width: 29%;
+    align-items: center;
+    float: left;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 2px 1px rgba(109, 111, 116, 0.153);
+
+}
+
+.caja01 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.subcaja011 {
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.subcaja0111 {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tres {
+    display: flex;
+    justify-content: center;
+}
+
+
+.tresfoto {
+    object-fit: cover;
+align-self: center;
+    width: 50%;
+    height: 613px;
+    display: flex;
+    object-position: center;
+}
+
+
+
+.trestexto {
+    background-color: rgba(17, 24, 39);
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 1rem;
+
+}
+
+.trestextouno {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(209,213,219);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.trestextodos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font: weight;
+    text-decoration: dotted;
+}
+
+.trestextotres {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(209,213,219);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.trestextocuatro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0.916);
+    color: rgba(17,24,39);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 180px;
+    padding: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
 }
